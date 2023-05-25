@@ -5,7 +5,7 @@ This is an example exercise notebook written as a python file and converted to a
 
 Please start your exercise with a brief description of the learning objectives and task in the notebook. E.g. in this notebook we are going to train a simple linear classifier to identify if an image contains a dog or a cat. At the end of this exercise, you should be familiar with how to use tensorflow to implement a simple model and how to set up a dataset object.
 
-<div class="alert alert-warning">
+<div class="alert alert-danger">
 Set your python kernel to <code>000-example-exercise</code>
 </div>
 """
@@ -46,5 +46,10 @@ Checkpoints help us keep track of the students progress and make sure they are m
 Checkpoint 1
 
 Post to Element when you have reached checkpoint 1. We will discuss the many wonderful uses of <code>np.zeros</code>.
+</div>
+
+<div class="alert alert-warning">
+Question
+This box poses a question for students to ponder.
 </div>
 """
