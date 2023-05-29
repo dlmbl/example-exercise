@@ -34,7 +34,7 @@ a.shape
 # %% [markdown]
 # Solution cells are tagged with "solution" and can be removed using `nbconvert`. See the cell below as an example
 
-# %% tag=["solution"]
+# %% tags=["solution"]
 a = np.zeros((10, 10, 2))
 
 a.shape
