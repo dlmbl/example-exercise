@@ -19,7 +19,8 @@ import matplotlib.pyplot as plt
 Tasks should be clearly numbered and contain an explicit piece of work that the students need to complete.
 
 <div class="alert alert-info">
-Task 1.1
+
+### Task 1.1
 
 Use <code>np.zeros</code> to generate an empty array of zeros with the shape 10x10x2. For more information on this function, check out the <a href="https://numpy.org/doc/stable/reference/generated/numpy.zeros.html">docs</a> or run <code>np.zeros?</code> in a code cell to see the docstring.
 </div>
@@ -43,13 +44,15 @@ a.shape
 """
 Checkpoints help us keep track of the students progress and make sure they are moving through the exercise appropriately. You should aim for a checkpoint for each hour of work or each conceptual block. They are a great opportunity to make sure the students understand what has been covered so far and are prepared to move on to the next section.
 <div class="alert alert-success">
-Checkpoint 1
+
+## Checkpoint 1
 
 Post to Element when you have reached checkpoint 1. We will discuss the many wonderful uses of <code>np.zeros</code>.
 </div>
 
 <div class="alert alert-warning">
-Question
+
+### Question
 This box poses a question for students to ponder.
 </div>
 """

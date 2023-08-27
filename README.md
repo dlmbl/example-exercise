@@ -12,7 +12,7 @@ source setup.sh
 
 When you are ready to start the exercise, make sure you activate the installed environment and then run `jupyter lab`.
 ```bash
-mamba activate {your_env_name}
+mamba activate base
 jupyter lab
 ```
 
