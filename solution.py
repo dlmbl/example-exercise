@@ -26,7 +26,7 @@ Use <code>np.zeros</code> to generate an empty array of zeros with the shape 10x
 </div>
 """
 
-# %%
+# %% tags=["task"]
 a = ...  # Insert your code for generating an array of zeros here
 
 # Check that the shape is correct
