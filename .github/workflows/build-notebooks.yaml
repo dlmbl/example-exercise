@@ -1,0 +1,24 @@
+name: Build Notebooks
+on:
+  push:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: jupytext and nbconvert
+        run: >
+          pip install jupytext nbconvert
+
+          jupytext --to ipynb --update-metadata '{"jupytext":{"cell_metadata_filter":"all"}}' solution.py
+
+          jupyter nbconvert solution.ipynb --TagRemovePreprocessor.enabled=True --TagRemovePreprocessor.remove_cell_tags solution --to notebook --output exercise.ipynb
+          jupyter nbconvert solution.ipynb --TagRemovePreprocessor.enabled=True --TagRemovePreprocessor.remove_cell_tags task --to notebook --output solution.ipynb
+
+      - uses: EndBug/add-and-commit@v9
+        with:
+          add: solution.ipynb exercise.ipynb
+          
